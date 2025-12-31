@@ -1,8 +1,8 @@
 {
-  "name": "expressive",
+  "name": "expressive-material",
+  "version": "0.0.0",
   "module": "index.ts",
   "type": "module",
-  "private": true,
   "scripts": {
     "dev": "bun run --watch index.ts",
     "fix": "oxfmt app index.ts --write && oxlint app index.ts --fix && tsc --noEmit",
