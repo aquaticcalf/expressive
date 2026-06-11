@@ -1,9 +1,13 @@
 packages:
   - web
+  - stories
 
 catalogMode: prefer
 
 catalog:
   lit: ^3.3.3
+  tailwindcss: ^4.1.6
+  "@tailwindcss/vite": ^4.1.6
+  "@storylite/storylite": ^1.5.4
   vitest: npm:@voidzero-dev/vite-plus-test@latest
   vite-plus: latest

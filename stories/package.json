@@ -1,0 +1,15 @@
+{
+  "name": "stories",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storylite dev",
+    "build": "storylite build",
+    "preview": "storylite preview"
+  },
+  "devDependencies": {
+    "@storylite/storylite": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}

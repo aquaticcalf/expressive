@@ -1,7 +1,11 @@
 {
   "private": true,
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "stories": "pnpm --filter stories dev",
+    "stories:build": "pnpm --filter stories build",
+    "stories:preview": "pnpm --filter stories preview"
+  },
   "devDependencies": {
     "vite-plus": "catalog:"
   },
@@ -11,6 +15,5 @@
       "version": "^11.5.3",
       "onFail": "download"
     }
-  },
-  "packageManager": "pnpm@11.6.0"
+  }
 }
