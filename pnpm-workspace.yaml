@@ -1,7 +1,9 @@
 packages:
   - web
 
-# catalogMode: prefer
+catalogMode: prefer
 
 catalog:
   lit: ^3.3.3
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite-plus: latest

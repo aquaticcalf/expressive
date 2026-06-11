@@ -1,13 +1,9 @@
 {
   "private": true,
   "type": "module",
-  "scripts": {
-    "fix": "oxfmt -c config/oxfmt.json && oxlint -c config/oxlint.json --fix && tsc --noEmit"
-  },
+  "scripts": {},
   "devDependencies": {
-    "oxfmt": "^0.54.0",
-    "oxlint": "^1.69.0",
-    "typescript": "^6.0.3"
+    "vite-plus": "catalog:"
   },
   "devEngines": {
     "packageManager": {
@@ -15,5 +11,6 @@
       "version": "^11.5.3",
       "onFail": "download"
     }
-  }
+  },
+  "packageManager": "pnpm@11.6.0"
 }
