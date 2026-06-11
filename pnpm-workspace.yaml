@@ -1,0 +1,7 @@
+packages:
+  - web
+
+# catalogMode: prefer
+
+catalog:
+  lit: ^3.3.3

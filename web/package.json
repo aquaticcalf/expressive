@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "private": true,
+  "description": "",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "lit": "catalog:"
+  }
+}
